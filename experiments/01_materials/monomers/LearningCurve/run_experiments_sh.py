@@ -25,7 +25,7 @@ def equalize_dataset(df, col, verbose = True):
         print(f'Balanced dataset: same number of entries ({mini}) for {new_values_dict.values()}. ({new_values_dict})')
     return new_df
 
-DATA_FILE = 'train_ben.csv'
+DATA_FILE = 'train_monomers.csv'
 
 MAX_TEST_DATA = 50
 
