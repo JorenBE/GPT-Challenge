@@ -15,5 +15,5 @@
 | CO2 Adsorption of Biomasses | Hossein Mashhadimoslem | Iran University of Science and Technology (IUST) | [Download](experiments/02_reactions/Isomerisation_yield/DatasetExpore/Isomerisation_train.csv?raw=true) |
 | Isomerisation Yield | Leander Choudhury, Jérôme Waser | EPFL | [Download](experiments/02_reactions/Isomerisation_yield/DatasetExpore/Isomerisation_train.csv?raw=true) |
 | Polymerization Kinetics | Joren Van Herck, Tanja Junkers | Monash University | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
-| MOFs - Photocatalytic Activity | Matthew Garvin, Neda Poudineh, and Susana Garcia, Ruaraidh D. McIntosh | Heriot-Watt University | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
+| MOFs - Photocatalytic Activity | Matthew Garvin, Neda Poudineh, Susana Garcia, Ruaraidh D. McIntosh | Heriot-Watt University | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
 
