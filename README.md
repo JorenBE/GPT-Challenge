@@ -16,4 +16,9 @@
 | Isomerisation Yield | Leander Choudhury, Jérôme Waser | EPFL | [Download](experiments/02_reactions/Isomerisation_yield/DatasetExpore/Isomerisation_train.csv?raw=true) |
 | Polymerization Kinetics | Joren Van Herck, Tanja Junkers | Monash University | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
 | MOFs - Photocatalytic Activity | Matthew Garvin, Neda Poudineh, Susana Garcia, Ruaraidh D. McIntosh | Heriot-Watt University | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
+| Thermal Desalination | Mehrdad Asgari | University of Cambridge | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
+| Detection Response of Gas Sensors | Mehrdad Asgari | University of Cambridge | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
+| Stability of Gas Sensors | Mehrdad Asgari | University of Cambridge | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
+| Biomass Gasification | María Victoria Gil, Covadonga Pevida | Instituto de Ciencia y Tecnología del Carbono (INCAR) | [Download](experiments/02_reactions/Polymerization_Kinetics/DatasetExplore/Polymerization.csv?raw=true) |
+
 
