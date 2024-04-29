@@ -12,4 +12,5 @@
 | Hydrogen Storage Capacity  | Andreas Zütel | EPFL | [Download](experiments/02_reactions/NiCatalysis/DatasetExplore/NiCatalysis.csv?raw=true) |
 | MOFs - Photocatalytic water splitting  | Beatriz Mouriño | EPFL | [Download](experiments/02_reactions/MOFs_photocatalysis/MOFs_photocatalysis.csv?raw=true) |
 | MOF synthesis | Francesca Nerli, Marco Taddei | Universitá di Pisa | [Download](experiments/02_reactions/MOF_synthesis/DatasetExplore/MOF_synthesis_train.csv?raw=true) |
+| Isomerisation Yield | Leander Choudhury, Jérôme Waser | EPFL | [Download](experiments/02_reactions/Isomerisation_yield/DatasetExpore/Isomerisation_train.csv?raw=true) |
 
