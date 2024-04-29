@@ -10,4 +10,6 @@
 | Activation energies of cycloadditions | Dennis Svatunek | TU Wien | [Download](experiments/02_reactions/ActivationEnergy_Click/datasetExplore/ClickActivationE.csv?raw=true) |
 | Catalyzed cleavage reaction  | Rubén Laplaza Solanas, Clemence Corminboeuf | EPFL | [Download](experiments/02_reactions/NiCatalysis/datasetExplore/NiCatalysis.csv?raw=true) |
 | Hydrogen Storage Capacity  | Andreas Zütel | EPFL | [Download](experiments/02_reactions/NiCatalysis/datasetExplore/NiCatalysis.csv?raw=true) |
+| MOFs - Photocatalytic water splitting  | Beatriz Mouriño | EPFL | [Download](experiments/02_reactions/MOFs_photocatalysis/MOFs_photocatalysis.csv?raw=true) |
+
 
