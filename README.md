@@ -2,12 +2,12 @@
 
 | Dataset | Expert(s) | Affiliation | Data |
 | -------- | -------- | -------- |-------- |
-| Adhesion Energy of Polymers | Jiale Shi, Jonathan Whitmer | University of Notre Dame (USA) |[Download](experiments/01_MaterialsAndProperties/polymers_AdE/DatasetExplore/train_polymers.csv?raw=true)|
-| Properties of Monomers | KJ Schmidt, Ben Blaiszik, Ian T. Foster | University of Chicago (USA) | [Download](experiments/01_MaterialsAndProperties/monomers/DatasetExplore/train_monomers.csv?raw=true) |
-| Melting Point of Molecules | <p>Guillaume Godin</p><p>Igor Tetko</p> | <p>dsm-firmenich SA (Switzerland)</p><p>Helmholtz Munich; BIGCHEM GmbH (Germany)</p> | [Download](experiments/01_MaterialsAndProperties/MeltingPoint/DatasetExplore/train_meltingPoint_noDuplicates.csv?raw=true) |
-| Viscosity of Molecules | Mahyar Rajabi-Kochic, Mohamad Moosavi | University of Toronto (Canada) | [Download](experiments/01_MaterialsAndProperties/Viscosity/?raw=true) |
-| Microstructural Properties of Magnesium Alloys | Jianan Gu, Domonkos Tolnai, D.C. Florian Wieland, Regine Willumeit-Römer | Helmholtz Zentrum Hereon (Germany) | [Download](experiments/01_MaterialsAndProperties/MgAlloys/DatasetExplore/HEREON_final.csv?raw=true) |
-| Phase Separation Propensity of Proteins | Lydia Good, Alex Abrudan, Tuomas P.J. Knowles | University of Cambridge (UK) | [Download](experiments/01_MaterialsAndProperties/proteins/DatasetExplore/LLPS_all.csv?raw=true) |
+| Adhesion Energy of Polymers | Jiale Shi, Jonathan Whitmer | University of Notre Dame (USA) |[Download](experiments/01_Materials_and_Properties/polymers_AdE/DatasetExplore/train_polymers.csv?raw=true)|
+| Properties of Monomers | KJ Schmidt, Ben Blaiszik, Ian T. Foster | University of Chicago (USA) | [Download](experiments/v/monomers/DatasetExplore/train_monomers.csv?raw=true) |
+| Melting Point of Molecules | <p>Guillaume Godin</p><p>Igor Tetko</p> | <p>dsm-firmenich SA (Switzerland)</p><p>Helmholtz Munich; BIGCHEM GmbH (Germany)</p> | [Download](experiments/01_Materials_and_Properties/MeltingPoint/DatasetExplore/train_meltingPoint_noDuplicates.csv?raw=true) |
+| Viscosity of Molecules | Mahyar Rajabi-Kochic, Mohamad Moosavi | University of Toronto (Canada) | [Download](experiments/01_Materials_and_Properties/Viscosity/?raw=true) |
+| Microstructural Properties of Magnesium Alloys | Jianan Gu, Domonkos Tolnai, D.C. Florian Wieland, Regine Willumeit-Römer | Helmholtz Zentrum Hereon (Germany) | [Download](experiments/01_Materials_and_Properties/MgAlloys/DatasetExplore/HEREON_final.csv?raw=true) |
+| Phase Separation Propensity of Proteins | Lydia Good, Alex Abrudan, Tuomas P.J. Knowles | University of Cambridge (UK) | [Download](experiments/01_Materials_and_Properties/proteins/DatasetExplore/LLPS_all.csv?raw=true) |
 | Activation Energy of Cycloadditions | Dennis Svatunek | TU Wien (Austria) | [Download](experiments/02_ReactionsAndSynthesis/ActivationEnergy_Click/DatasetExplore/ClickActivationE.csv?raw=true) |
 | Free Energy of Catalyzed Cleavage Reaction | Rubén Laplaza, Clemence Corminboeuf | École Polytechnique Fédérale de Lausanne (EPFL) (Switzerland) | [Download](experiments/02_ReactionsAndSynthesis/NiCatalysis/DatasetExplore/NiCatalysis.csv?raw=true) |
 | Yield of Catalytic Isomerization | Leander Choudhury | École Polytechnique Fédérale de Lausanne (EPFL) (Switzerland) | [Download](experiments/02_ReactionsAndSynthesis/Isomerisation_yield/DatasetExpore/Isomerisation_train.csv?raw=true) |
