@@ -3,7 +3,7 @@
 | Dataset | Expert(s) | Affiliation | Data |
 | -------- | -------- | -------- |-------- |
 | Adhesion Energy of Polymers | Jiale Shi, Jonathan Whitmer | University of Notre Dame (USA) |[Download](experiments/01_materials/polymers_AdE/DatasetExplore/train_polymers.csv?raw=true)|
-| Properties of Monomers | <p>KJ Schmidt</p><p>Ben Blaiszik, Ian T. Foster</p>| <p>University of Chicago</p><p>Argonne National Laboratory (USA)</p> | [Download](experiments/01_materials/monomers/DatasetExplore/train_monomers.csv?raw=true) |
+| Properties of Monomers | KJ Schmidt, Ben Blaiszik, Ian T. Foster | University of Chicago (USA) | [Download](experiments/01_materials/monomers/DatasetExplore/train_monomers.csv?raw=true) |
 | Melting Point of Molecules | <p>Guillaume Godin</p><p>Igor Tetko</p> | <p>dsm-firmenich SA (Switzerland)</p><p>Helmholtz Munich; BIGCHEM GmbH (Germany)</p> | [Download](experiments/01_materials/MeltingPoint/DatasetExplore/train_meltingPoint_noDuplicates.csv?raw=true) |
 | Viscosity of Molecules | Mahyar Rajabi-Kochic, Mohamad Moosavi | University of Toronto (Canada) | [Download](experiments/01_materials/Viscosity/?raw=true) |
 | Microstructural Properties of Magnesium Alloys | Jianan Gu, Domonkos Tolnai, D.C. Florian Wieland, Regine Willumeit-Römer | Helmholtz Zentrum Hereon (Germany) | [Download](experiments/01_materials/MgAlloys/DatasetExplore/HEREON_final.csv?raw=true) |
