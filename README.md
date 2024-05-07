@@ -2,10 +2,10 @@
 
 Fine-tuned Large Lenguage Models (LLMs) for Chemistry and Materials Science applications.
 
-To fine-tuning our models we used the `chemlift` package, which can be installed from https://github.com/lamalab-org/chemlift.
-
 
 ### Description
+
+To fine-tuning our models we used the `chemlift` package, which can be installed from https://github.com/lamalab-org/chemlift.
 
 The datasets, scripts, results, and examples for the studied case studies can be found in `experiments`.
 
