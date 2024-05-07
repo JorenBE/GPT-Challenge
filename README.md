@@ -1,6 +1,18 @@
 # GPT-Challenge
 
-To fine-tuning our models we use the chemlift package, which can be installed from \url{https://github.com/lamalab-org/chemlift}.
+Fine-tuned Large Lenguage Models (LLMs) for Chemistry and Materials Science applications.
+
+To fine-tuning our models we used the `chemlift` package, which can be installed from https://github.com/lamalab-org/chemlift.
+
+
+### Description
+
+The datasets, scripts, results, and examples for the studied case studies can be found in `experiments`.
+
+
+### Datasets
+
+The datasets can also be downloaded here.
 
 | Dataset | Expert(s) | Affiliation | Data |
 | -------- | -------- | -------- |-------- |
