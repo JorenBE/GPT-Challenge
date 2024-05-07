@@ -1,5 +1,7 @@
 # GPT-Challenge
 
+To fine-tuning our models we use the chemlift package, which can be installed from \url{https://github.com/lamalab-org/chemlift}.
+
 | Dataset | Expert(s) | Affiliation | Data |
 | -------- | -------- | -------- |-------- |
 | Adhesive Energy of Polymers | Jiale Shi, Jonathan Whitmer | University of Notre Dame (USA) |[Download](experiments/01_Materials_and_Properties/AdE_polymers/DatasetExplore/train_polymers.csv?raw=true)|
