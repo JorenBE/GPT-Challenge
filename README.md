@@ -1,6 +1,6 @@
 # GPT-Challenge
 
-Fine-tuned Large Lenguage Models (LLMs) for Chemistry and Materials Science applications.
+Fine-tuned Large Language Models (LLMs) for Chemistry and Materials Science applications.
 
 
 ### Description
