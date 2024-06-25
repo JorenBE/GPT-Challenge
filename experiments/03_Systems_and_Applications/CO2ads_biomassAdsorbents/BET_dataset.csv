@@ -1,0 +1,75 @@
+Precursor;Activator;Activator_carbon_ratio;Activation T (K);Pore volume (cm3/g);BET (m2/g);BET_2bins_5050;BET_7426;synthesis
+Lignin Waste;KOH;4;873;0.91;1820;1;1;an activated carbon synthetized from Lignin Waste as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 873 K
+Lignin Waste;KOH;4;973;1;2038;1;1;an activated carbon synthetized from Lignin Waste as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 973 K
+Crab shell;KOH;1.5;773;0.24;503;0;0;an activated carbon synthetized from Crab shell as precursor, activated with KOH with an activator/carbon weight ratio of 1.5 at a temperature of 773 K
+Crab shell;KOH;1.5;923;0.5;1196;0;0;an activated carbon synthetized from Crab shell as precursor, activated with KOH with an activator/carbon weight ratio of 1.5 at a temperature of 923 K
+Crab shell;KOH;0.5;873;0.09;192;0;0;an activated carbon synthetized from Crab shell as precursor, activated with KOH with an activator/carbon weight ratio of 0.5 at a temperature of 873 K
+Crab shell;KOH;1;873;0.34;798;0;0;an activated carbon synthetized from Crab shell as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 873 K
+Crab shell;KOH;1.5;873;0.46;1004;0;0;an activated carbon synthetized from Crab shell as precursor, activated with KOH with an activator/carbon weight ratio of 1.5 at a temperature of 873 K
+Crab shell;KOH;2;873;0.47;1387;1;0;an activated carbon synthetized from Crab shell as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 873 K
+Crab shell;KOH;1.5;873;0.09;192;0;0;an activated carbon synthetized from Crab shell as precursor, activated with KOH with an activator/carbon weight ratio of 1.5 at a temperature of 873 K
+Peanut shell;KOH;2;953;0.73;1713;1;0;an activated carbon synthetized from Peanut shell as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 953 K
+Peanut shell;KOH;2;1053;0.8;1871;1;1;an activated carbon synthetized from Peanut shell as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 1053 K
+Rice husk;KOH;1;913;0.41;774;0;0;an activated carbon synthetized from Rice husk as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 913 K
+Rice husk;KOH;1;983;0.53;1041;0;0;an activated carbon synthetized from Rice husk as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 983 K
+Rice husk;KOH;1;1053;0.6;1199;0;0;an activated carbon synthetized from Rice husk as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 1053 K
+Rice husk;KOH;3;1053;1.14;2695;1;1;an activated carbon synthetized from Rice husk as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 1053 K
+Empty fruit bunch;KOH;5;873;0.17;1080;0;0;an activated carbon synthetized from Empty fruit bunch as precursor, activated with KOH with an activator/carbon weight ratio of 5 at a temperature of 873 K
+Empty fruit bunch;KOH;5;1073;0.43;1120;0;0;an activated carbon synthetized from Empty fruit bunch as precursor, activated with KOH with an activator/carbon weight ratio of 5 at a temperature of 1073 K
+Olive stone;CO2;none;1073;0.49;1063;0;0;an activated carbon synthetized from Olive stone as precursor, activated with CO2 with an activator/carbon weight ratio of none at a temperature of 1073 K
+Black locust;KOH;6;1103;0.98;2064;1;1;an activated carbon synthetized from Black locust as precursor, activated with KOH with an activator/carbon weight ratio of 6 at a temperature of 1103 K
+Black locust;KOH+Ammonia;6;873;1.35;2511;1;1;an activated carbon synthetized from Black locust as precursor, activated with KOH+Ammonia with an activator/carbon weight ratio of 6 at a temperature of 873 K
+Bambo;KOH;3;1146;0.8;1990;1;1;an activated carbon synthetized from Bambo as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 1146 K
+Bambo;KOH;1;1246;0.7;1840;1;1;an activated carbon synthetized from Bambo as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 1246 K
+Celtuce leaves;KOH;4;873;1.71;3290;1;1;an activated carbon synthetized from Celtuce leaves as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 873 K
+Pollen;KOH;1;1073;0.4;937;0;0;an activated carbon synthetized from Pollen as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 1073 K
+Popcorn;KOH;2;1073;0.706;1489;1;0;an activated carbon synthetized from Popcorn as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 1073 K
+Popcorn;KOH;1;1073;0.588;1248;0;0;an activated carbon synthetized from Popcorn as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 1073 K
+Popcorn;KOH;0.5;1073;0.406;867;0;0;an activated carbon synthetized from Popcorn as precursor, activated with KOH with an activator/carbon weight ratio of 0.5 at a temperature of 1073 K
+Urea + tobacco;KOH;2;873;1.9;1260;0;0;an activated carbon synthetized from Urea + tobacco as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 873 K
+Urea + tobacco;KOH;2;873;1.36;2690;1;1;an activated carbon synthetized from Urea + tobacco as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 873 K
+Urea + tobacco;KOH;2;973;1.71;3325;1;1;an activated carbon synthetized from Urea + tobacco as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 973 K
+Urea + tobacco;KOH;2;1073;2.3;3839;1;1;an activated carbon synthetized from Urea + tobacco as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 1073 K
+Urea + tobacco;KOH;2;1173;2.72;3391;1;1;an activated carbon synthetized from Urea + tobacco as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 1173 K
+Vine shoots;CO2;none;1073;0.26;593;0;0;an activated carbon synthetized from Vine shoots as precursor, activated with CO2 with an activator/carbon weight ratio of none at a temperature of 1073 K
+Vine shoots;KOH;2;873;0.23;538;0;0;an activated carbon synthetized from Vine shoots as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 873 K
+Vine shoots;KOH;5;973;0.67;1439;1;0;an activated carbon synthetized from Vine shoots as precursor, activated with KOH with an activator/carbon weight ratio of 5 at a temperature of 973 K
+Walnut shell;NaNH2;1.5;773;0.47;802;0;0;an activated carbon synthetized from Walnut shell as precursor, activated with NaNH2 with an activator/carbon weight ratio of 1.5 at a temperature of 773 K
+Walnut shell;NaNH2;2.5;723;0.94;1687;1;0;an activated carbon synthetized from Walnut shell as precursor, activated with NaNH2 with an activator/carbon weight ratio of 2.5 at a temperature of 723 K
+Chitosan;KCl-ZnCl2;2;1273;0.68;1389;1;0;an activated carbon synthetized from Chitosan as precursor, activated with KCl-ZnCl2 with an activator/carbon weight ratio of 2 at a temperature of 1273 K
+Chitosan;KCl-ZnCl2;3;1273;1.15;2025;1;1;an activated carbon synthetized from Chitosan as precursor, activated with KCl-ZnCl2 with an activator/carbon weight ratio of 3 at a temperature of 1273 K
+Chitosan;KCl-ZnCl2;3;1073;0.78;1655;1;0;an activated carbon synthetized from Chitosan as precursor, activated with KCl-ZnCl2 with an activator/carbon weight ratio of 3 at a temperature of 1073 K
+Poplar Wood;KOH;2;873;0.22;511;0;0;an activated carbon synthetized from Poplar Wood as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 873 K
+Waste wool;KOH;1;873;0.57;1010;0;0;an activated carbon synthetized from Waste wool as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 873 K
+Waste wool;KOH;3;873;0.78;1352;1;0;an activated carbon synthetized from Waste wool as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 873 K
+Waste wool;KOH;5;873;0.86;1420;1;0;an activated carbon synthetized from Waste wool as precursor, activated with KOH with an activator/carbon weight ratio of 5 at a temperature of 873 K
+Chrysanthemum tea;ZnCl2;1;1273;1.16;1840;1;1;an activated carbon synthetized from Chrysanthemum tea as precursor, activated with ZnCl2 with an activator/carbon weight ratio of 1 at a temperature of 1273 K
+Cork;KOH;3;973;0.82;2010;1;1;an activated carbon synthetized from Cork as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 973 K
+Coffee grounds;K2CO3;1;973;0.61;1476;1;0;an activated carbon synthetized from Coffee grounds as precursor, activated with K2CO3 with an activator/carbon weight ratio of 1 at a temperature of 973 K
+Coffee grounds;K2CO3;1;1073;0.71;1692;1;0;an activated carbon synthetized from Coffee grounds as precursor, activated with K2CO3 with an activator/carbon weight ratio of 1 at a temperature of 1073 K
+Garlic peel;KOH;2;873;0.51;947;0;0;an activated carbon synthetized from Garlic peel as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 873 K
+Garlic peel;KOH;2;973;0.63;1179;0;0;an activated carbon synthetized from Garlic peel as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 973 K
+Garlic peel;KOH;2;1073;0.7;1262;0;0;an activated carbon synthetized from Garlic peel as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 1073 K
+Garlic peel;KOH;4;873;0.63;1116;0;0;an activated carbon synthetized from Garlic peel as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 873 K
+Wheat;KOH;3;973;0.65;1438;1;0;an activated carbon synthetized from Wheat as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 973 K
+Pineapple;K2C2O4;2;973;0.08;1076;0;0;an activated carbon synthetized from Pineapple as precursor, activated with K2C2O4 with an activator/carbon weight ratio of 2 at a temperature of 973 K
+Coconut shell;KOH;3;873;0.43;1172;0;0;an activated carbon synthetized from Coconut shell as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 873 K
+Paulownia sawdust;KOH;4;873;0.414;782;0;0;an activated carbon synthetized from Paulownia sawdust as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 873 K
+Paulownia sawdust;KOH;4;973;0.857;1643;1;0;an activated carbon synthetized from Paulownia sawdust as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 973 K
+Paulownia sawdust;KOH;4;1073;0.905;1555;1;0;an activated carbon synthetized from Paulownia sawdust as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 1073 K
+Paulownia sawdust;KOH;4;1173;0.687;1293;1;0;an activated carbon synthetized from Paulownia sawdust as precursor, activated with KOH with an activator/carbon weight ratio of 4 at a temperature of 1173 K
+Paulownia sawdust;KOH;2;973;0.449;831;0;0;an activated carbon synthetized from Paulownia sawdust as precursor, activated with KOH with an activator/carbon weight ratio of 2 at a temperature of 973 K
+Paulownia sawdust;KOH;6;973;1.181;2435;1;1;an activated carbon synthetized from Paulownia sawdust as precursor, activated with KOH with an activator/carbon weight ratio of 6 at a temperature of 973 K
+Walnut shell;CO2+N2;none;773;0.34;810.85;0;0;an activated carbon synthetized from Walnut shell as precursor, activated with CO2+N2 with an activator/carbon weight ratio of none at a temperature of 773 K
+Peanut shell;KOH;1;1246;0.43;956;0;0;an activated carbon synthetized from Peanut shell as precursor, activated with KOH with an activator/carbon weight ratio of 1 at a temperature of 1246 K
+Sunflower seed shell;KOH;1.25;1246;0.77;1790;1;0;an activated carbon synthetized from Sunflower seed shell as precursor, activated with KOH with an activator/carbon weight ratio of 1.25 at a temperature of 1246 K
+Catkin;ZnCl2;4;1073;0.68;1455.1;1;0;an activated carbon synthetized from Catkin as precursor, activated with ZnCl2 with an activator/carbon weight ratio of 4 at a temperature of 1073 K
+Catkin;ZnCl2;4;973;0.58;1361.9;1;0;an activated carbon synthetized from Catkin as precursor, activated with ZnCl2 with an activator/carbon weight ratio of 4 at a temperature of 973 K
+Catkin;ZnCl2;4;1173;0.55;1272.4;0;0;an activated carbon synthetized from Catkin as precursor, activated with ZnCl2 with an activator/carbon weight ratio of 4 at a temperature of 1173 K
+Catkin;ZnCl2;6;1073;0.5;1248.7;0;0;an activated carbon synthetized from Catkin as precursor, activated with ZnCl2 with an activator/carbon weight ratio of 6 at a temperature of 1073 K
+Catkin;ZnCl2;8;1073;0.78;1024.8;0;0;an activated carbon synthetized from Catkin as precursor, activated with ZnCl2 with an activator/carbon weight ratio of 8 at a temperature of 1073 K
+Catkin;ZnCl2;2;1073;0.4;1005.4;0;0;an activated carbon synthetized from Catkin as precursor, activated with ZnCl2 with an activator/carbon weight ratio of 2 at a temperature of 1073 K
+Tar+CaO;KOH;3;1073;1.2;1829;1;1;an activated carbon synthetized from Tar+CaO as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 1073 K
+Acai stone;KOH;3;873;1.2;2612;1;1;an activated carbon synthetized from Acai stone as precursor, activated with KOH with an activator/carbon weight ratio of 3 at a temperature of 873 K
+Sugarcane bagasse;CO2;none;1023;0.38;622;0;0;an activated carbon synthetized from Sugarcane bagasse as precursor, activated with CO2 with an activator/carbon weight ratio of none at a temperature of 1023 K
+Tea seed shell;KOH+N2;4;973;0.47;1064;0;0;an activated carbon synthetized from Tea seed shell as precursor, activated with KOH+N2 with an activator/carbon weight ratio of 4 at a temperature of 973 K

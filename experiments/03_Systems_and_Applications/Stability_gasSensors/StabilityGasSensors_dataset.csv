@@ -1,0 +1,20 @@
+sensor;dopant_type;dopant_dose;calcination_temperature;BET_fresh;particle_size_fresh;BET_aged;particle_size_aged;fresh_point;5th_day;8th_day;12th_day;15th_day;diff_5_15day;diff_5_15day_5050;diff_5_15day_3763;synthesis
+SnO2;no dopant;0;no calcination;16;53.6;10;85.8;108;74;40.88;20;16;78.38;0;0;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with no dopant at a dose of 0.0 at an annealing temperature of no calcination
+Pt/SnO2-700;no dopant;0;700;13;66;12;71.5;160;35.33;34;nan;31;12.26;0;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with no dopant at a dose of 0.0 at an annealing temperature of 700
+Pt/SnO2-850;no dopant;0;850;8;107.3;6;143.1;125.4;30;nan;29;28;6.67;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with no dopant at a dose of 0.0 at an annealing temperature of 850
+Pt/SnO2-5-Mo-700;Mo;0.05;700;19.2;44.7;19;45.2;26.88;11.5;nan;11.5;11.5;0;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Mo at a dose of 0.05 at an annealing temperature of 700
+Pt/SnO2-5-Ce-700;Ce;0.05;700;48;17.9;25;34.3;21.44;17.2;17.2;17.7;17.2;0;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Ce at a dose of 0.05 at an annealing temperature of 700
+Pt/SnO2-5-Sm-700;Sm;0.05;700;29;29.6;26;33;215.9;41.9;nan;26;21;49.88;0;0;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Sm at a dose of 0.05 at an annealing temperature of 700
+Pt/SnO2-5-Si-700;Si;0.05;700;63;13.6;60;14.3;98;50;44;42.8;42.8;14.4;0;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Si at a dose of 0.05 at an annealing temperature of 700
+Pt/SnO2-5-Mo-850;Mo;0.05;850;13.2;65;13.1;65.5;13.2;9.5;9.5;9;9;5.26;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Mo at a dose of 0.05 at an annealing temperature of 850
+Pt/SnO2-5-Ce-850;Ce;0.05;850;12;71.5;11;78;10;2.5;2.5;2.8;2.5;0;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Ce at a dose of 0.05 at an annealing temperature of 850
+Pt/SnO2-5-Sm-850;Sm;0.05;850;18.1;47.4;17.8;48.2;18.2;6;3.6;2.7;1.6;73.33;0;0;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Sm at a dose of 0.05 at an annealing temperature of 850
+Pt/SnO2-5-Si-850;Si;0.05;850;36;23.8;35.5;24.2;80.8;26;22;18.5;18.8;27.69;0;0;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Si at a dose of 0.05 at an annealing temperature of 850
+Pt/SnO2-10-Mo-700;Mo;0.1;700;44;19.5;42;20.4;90;15.3;15.5;15.5;15.6;-1.96;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Mo at a dose of 0.1 at an annealing temperature of 700
+Pt/SnO2-10-Ce-700;Ce;0.1;700;26;33;24;35.8;14.88;11.3;11;10.5;11;2.65;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Ce at a dose of 0.1 at an annealing temperature of 700
+Pt/SnO2-10-Sm-700;Sm;0.1;700;36;23.8;23;37.3;19.6;2.8;2.3;2;2;28.57;0;0;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Sm at a dose of 0.1 at an annealing temperature of 700
+Pt/SnO2-10-Si-700;Si;0.1;700;90;9.5;76;11.3;208.5;61.32;58.8;58.8;58.8;4.11;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Si at a dose of 0.1 at an annealing temperature of 700
+Pt/SnO2-10-Mo-850;Mo;0.1;850;23;37.3;22.5;38.2;52.38;10.1;10;10;10.1;0;1;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Mo at a dose of 0.1 at an annealing temperature of 850
+Pt/SnO2-10-Ce-850;Ce;0.1;850;22;39;20.8;41.3;5.5;3.3;1.8;1.7;1.7;48.48;0;0;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Ce at a dose of 0.1 at an annealing temperature of 850
+Pt/SnO2-10-Sm-850;Sm;0.1;850;21.5;39.9;19;40.9;4.4;2.4;1.4;1.3;1.4;41.67;0;0;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Sm at a dose of 0.1 at an annealing temperature of 850
+Pt/SnO2-10-Si-850;Si;0.1;850;70;12.3;66;13;198;21.8;17.7;17.7;17.7;18.81;0;1;a gas sensor synthetized from Pt/SnO2 nanoparticles doped with Si at a dose of 0.1 at an annealing temperature of 850

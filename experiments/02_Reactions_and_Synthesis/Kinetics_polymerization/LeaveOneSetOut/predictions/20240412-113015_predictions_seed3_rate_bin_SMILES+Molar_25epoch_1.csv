@@ -1,0 +1,24 @@
+,SMILES+Molar,rate_bin,partition,prediction
+0,C=CC(OC)=O (1 molar),0,train,999
+1,C=CC(OC)=O (2 molar),0,train,999
+2,C=CC(OC)=O (4 molar),0,train,999
+3,CCCOC(=O)C=C (1 molar),0,train,999
+4,CCCOC(=O)C=C (2 molar),0,train,999
+5,CCCOC(=O)C=C (4 molar),1,train,999
+6,CCCCOC(=O)C=C (1 molar),0,train,999
+7,CCCCOC(=O)C=C (2 molar),1,train,999
+8,CCCCOC(=O)C=C (4 molar),1,train,999
+9,CC(C)COC(=O)C=C (1 molar),0,train,999
+10,CC(C)COC(=O)C=C (2 molar),0,train,999
+11,CC(C)COC(=O)C=C (4 molar),1,train,999
+12,CCCCC(CC)COC(=O)C=C (1 molar),0,train,999
+13,CCCCC(CC)COC(=O)C=C (2 molar),1,train,999
+14,CCCCC(CC)COC(=O)C=C (4 molar),1,train,999
+15,C=CC(=O)OC1CCCCC1 (1 molar),0,train,999
+16,C=CC(=O)OC1CCCCC1 (2 molar),1,train,999
+17,C=CC(=O)OC1CCCCC1 (4 molar),1,train,999
+18,CCCCCCCCCCCCOC(=O)C=C (1 molar),1,train,999
+19,CCCCCCCCCCCCOC(=O)C=C (2 molar),1,train,999
+0,CCOC(=O)C=C (1 molar),0,test,0
+1,CCOC(=O)C=C (2 molar),0,test,0
+2,CCOC(=O)C=C (4 molar),1,test,1
