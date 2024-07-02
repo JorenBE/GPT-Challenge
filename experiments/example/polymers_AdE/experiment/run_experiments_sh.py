@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import wandb
 from fastcore.xtras import save_pickle
-from gptjchem.peftclassifier import PEFTClassifier
+from chemlift.finetune.peftmodels import PEFTClassifier
 from gptchem.evaluator import evaluate_classification
 from pycm import ConfusionMatrix
 from sklearn.model_selection import train_test_split
