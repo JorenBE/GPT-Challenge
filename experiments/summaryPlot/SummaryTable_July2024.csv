@@ -1,0 +1,24 @@
+case, Dataset,Dataset size,Representation,Split,Epochs,Training size,Accuracy,
+Adhesive Energy, Adhesive Energy,16000,"Chain Sequence e.g., ABABBAAB",median,4,5000,92.6
+Properties of Monomers,Density,410,SMILES,median,20,300,84.6
+Melting Point,Melting Point,274983,SMILES,median,25,1000,69.3
+Viscosity, Viscosity, 100, SMILES, median, 30, 80, 80.0
+Mg Alloys,Grain Size,81,"elemental composition Process route 9 proc. param.",median,50,25,84.0
+LLPS of Proteins,LLPS,1561,Protein Seqeunce,median,25,168,85.0
+Cycloaddition,Cycloaddition,966,"1 x SMILES",median,25,250,94.0
+Catalyzed Cleavage Reaction,Ni Catalysis,1423,"1 x SMILES",median,20,1000,90.0
+Catalytic Isomerization,Catalytic isomerisation yield,16,SMILES,median,50,13,55.0
+Polymerization Kinetics, Polymerization Kinetics, 22, SMILES, median, 50,15,76.0
+Photocatalysis (Water Splitting),VIS,284,Elemental Composition,median,10,174,81.0
+Photocatalysis (CO2 Conversion), VIS,100,Elemental Composition,median,100,174,68.0
+MOF Synthesis,MOF Synthesis MIL 140,25,12 reaction conditions,62/38,50,20,89.0
+Gas Uptake/Diffusion of MOFs,He Diffusion,677,chemistry,median,25,500,77.0
+Hydrogen Storage Capacity,Hydrogen Storage Capacity,430,"Formula + pressure",median,20,1000,78.6
+Biomass-derived Adsorbents,CO2 Adsorption,421,"3 x activation param. 2 ads. param. 2 x textural prop.",median,30,380,84.0
+Thermal Desalination,Gain Output Ratio,30,2 x properties,median,100,25,92.0
+Detection Response of Gas Sensors,Detection Response,56,2 x properties,median,100,45,89.4
+Stability of Gas Sensors,Stability,30,3 x properties,median,120,15,70.8
+Biomass Gasification,Biomass Gasification,16,5 x comp. HHV,median,140,45,77.5
+Nanoparticles,Nanoparticles,16,5 x comp. HHV,median,30,1800,98.0
+
+
