@@ -1,0 +1,7 @@
+Feature(s): SM-SMILES, Product-SMILES
+    goal: predict the yield from a isomerisation; starting material and product are smiles.
+    convert both to morgan fingerprints
+
+target: yield_bin
+    binary classification of yield
+

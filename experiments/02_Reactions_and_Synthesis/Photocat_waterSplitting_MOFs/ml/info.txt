@@ -1,0 +1,6 @@
+Feature(s): smiles_nodes,smiles_linkers
+    convert to morgan fingerprint
+
+target: HER_bool,OER_bool,VIS_bool
+    three binary classifications
+

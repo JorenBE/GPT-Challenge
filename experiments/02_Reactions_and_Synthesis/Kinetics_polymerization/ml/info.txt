@@ -1,0 +1,13 @@
+Feature(s): 'SMILES' column and 'Molar' column
+    convert SMILES to morgan fingerprint
+    'Molar' as is
+    
+target: rate_bin
+    binary class
+
+As the dataset is rather small here, we did a 'leave one out' strategy.
+
+So train the model on all but one set of monomers. For instance, train on all data expect where 'SMILES' is 'C=CC(OC)=O' (is methyl acrylate). These are 3 datapoints, as there are are 3 experimental Molar concentrations. Predict the binary class of these points and compare
+
+see SI for more info
+   
