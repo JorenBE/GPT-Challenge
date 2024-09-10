@@ -1,0 +1,5 @@
+Feature(s): 'SMILES' column
+    translate to morgan fingerprint
+
+target: mp_bin
+    binary class of melting points

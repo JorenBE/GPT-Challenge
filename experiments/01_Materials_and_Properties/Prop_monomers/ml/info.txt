@@ -1,0 +1,7 @@
+Feature(s): 'SMILES' column
+    convert to morgan fingerprint
+    
+target: E_coh_bin,T_g_bin,R_gyr_bin,Densities_bin
+    4 targets
+    each a binary class of a monomer property
+   
