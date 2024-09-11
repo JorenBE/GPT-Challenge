@@ -84,8 +84,10 @@ class MLmodel:
             self.df['fingerprints'] = self.df['SMILES'].apply(self.smiles_to_fingerprint)
             self.features.pop(self.features.index('SMILES'))
             self.df = self.df.dropna(subset=['fingerprints'])
+            self.X = self.df[self.features + ['fingerprints']]
+        else:
+            self.X = self.df[self.features]
 
-        self.X = self.df[self.features + ['fingerprints']]
         self.y = self.df[self.target]
 
         total_samples = len(self.X)
@@ -183,6 +185,9 @@ class MLmodel:
             self.model.set_params(**best_params)
             best_model = self.model.fit(self.X_train, self.y_train)
             self.model = best_model
+            print(f"Best {self.modelType} model trained successfully with "
+                  "hyperparameter tuning using Optuna.")
+            print(f"Best hyperparameters: {best_params}")
 
         else:
             raise NotImplementedError(f"The optimization method is not implemented yet: {self.optimization_method}")
