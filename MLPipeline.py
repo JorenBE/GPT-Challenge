@@ -12,13 +12,20 @@ from xgboost import XGBClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.base import BaseEstimator
 from sklearn.metrics import mean_squared_error, accuracy_score
+from sklearn.multioutput import MultiOutputClassifier, MultiOutputRegressor
 
 import optuna
 
 from rdkit import Chem
 from rdkit.Chem import rdFingerprintGenerator
 
+from loguru import logger
+
 optuna.logging.set_verbosity(optuna.logging.INFO)
+
+#! Not very sure if the implementation of optuna for multi target modelling is ok??
+#! The NaN values are replaced by -1, is there a better way?
+# TODO: Make it better by first splitting, then converting the smiles to the fingerprints. This way usually, less computation for the conversion is needed.
 
 Regression_models = [
     "LinearRegression",
@@ -41,10 +48,10 @@ Classification_models = [
 class MLmodel:
     modelType: str
     df: pd.DataFrame
-    target: str
+    target: List[str]
     features: List[str]
     feature_types: List[str]
-    target_type: str = 'binary'
+    target_type: List[str] = field(default_factory=lambda: ['binary'])
     test_count: int = 50
     train_count: int = 50
     randomSeed: int = 42
@@ -62,11 +69,10 @@ class MLmodel:
     y_test: Optional[pd.Series] = field(init=False, default=None)
     objective: Optional[Callable] = None
 
-
     def __post_init__(self):
 
-        assert self.target in self.df.columns, \
-            f"Target column {self.target} not found in the DataFrame."
+        assert all([f in self.df.columns for f in self.target]), \
+            "One or more target column not found in the DataFrame."
 
         assert all([f in self.df.columns for f in self.features]), \
             "One or more feature columns not found in the DataFrame."
@@ -77,7 +83,7 @@ class MLmodel:
         assert all([f in ['SMILES', 'numerical'] for f in self.feature_types]), \
             "Feature types should be either 'SMILES' or 'numerical'."
 
-        self.df = self.df.dropna(subset=self.features + [self.target])  # Ensure no missing values
+        self.df = self.df.fillna(-1)  # Ensure no missing values
         self.model = None  # This will hold the instantiated model
 
         if 'SMILES' in self.feature_types:
@@ -120,9 +126,18 @@ class MLmodel:
         self.X_test = np.squeeze(self.X_test)
         self.X_train = np.array([np.array(x).flatten() for x in self.X_train])
         self.X_test = np.array([np.array(x).flatten() for x in self.X_test])
+        # Not optimal
+        if len(self.target) < 2:
+            self.y_train = self.y_train.ravel()
+            self.y_test = self.y_test.ravel()
 
-        # Initialize the model based on modelType
-        # Regression models
+        logger.info('ndim y_train: {}', self.y_train.ndim)
+        logger.info('ndim x_train: {}', self.X_train.ndim)
+        logger.info('shape y_train: {}', self.y_train.shape)
+        logger.info('shape x_train: {}', self.X_train.shape)
+
+    # Initialize the model based on modelType
+    # Regression models
         if self.modelType == "LinearRegression":
             self.model = LinearRegression()
         elif self.modelType == "DecisionTreeRegressor":
@@ -147,6 +162,11 @@ class MLmodel:
         else:
             raise ValueError(f"Model type {self.modelType} is not supported.")
 
+        if len(self.target) >= 2 and self.modelType in Classification_models:
+            self.model = MultiOutputClassifier(self.model)
+        elif len(self.target) >= 2 and self.modelType in Regression_models:
+            self.model = MultiOutputRegressor(self.model)
+
     def smiles_to_fingerprint(self, smiles) -> np.ndarray:
         """
         Convert a SMILES string to a molecular fingerprint using RDKit.
@@ -168,7 +188,8 @@ class MLmodel:
         """
         if self.optimization_method == 'grid_search':
             grid_search = GridSearchCV(estimator=self.model, param_grid=self.param_grid, cv=self.cv,
-            scoring='accuracy' if self.modelType in Classification_models else 'neg_mean_squared_error')
+                                       scoring='accuracy' if self.modelType in Classification_models
+                                       else 'neg_mean_squared_error')
 
             grid_search.fit(self.X_train, self.y_train)
             print(f"Best hyperparameters: {grid_search.best_params_}")
@@ -182,7 +203,12 @@ class MLmodel:
             study = optuna.create_study(direction='maximize' if self.modelType in Classification_models else 'minimize')
             study.optimize(self.objective, n_trials=50)
             best_params = study.best_params
-            self.model.set_params(**best_params)
+
+            if len(self.target) < 2:
+                self.model.set_params(**best_params)
+            else:
+                self.model.estimator.set_params(**best_params)
+
             best_model = self.model.fit(self.X_train, self.y_train)
             self.model = best_model
             print(f"Best {self.modelType} model trained successfully with "
@@ -227,16 +253,22 @@ class MLmodel:
         if self.model is None:
             raise ValueError("Model has not been trained yet.")
 
+        predictions = self.predict(self.X_test)
+
         if self.modelType in Regression_models:
             # Predict on the test set
-            predictions = self.predict(self.X_test)
             eval = mean_squared_error(self.y_test, predictions)
             print(f"Mean Squared Error for {self.modelType}: {eval:.2f}")
         else:
-            # Predict on the test set
-            predictions = self.predict(self.X_test)
-            eval = accuracy_score(self.y_test, predictions)
-            print(f"Accuracy for {self.modelType}: {eval:.2f}")
+            if len(self.y_test.shape) >= 2:
+                # Multiple target columns
+                accuracies = [accuracy_score(self.y_test[:, i], predictions[:, i]) for i in range(self.y_test.shape[1])]
+                print(f"Accuracies for each target in {self.modelType}: {accuracies}")
+                eval = accuracies
+            else:
+                # Predict on the test set
+                eval = accuracy_score(self.y_test, predictions)
+                print(f"Accuracy for {self.modelType}: {eval:.2f}")
         return eval
 
     def getValues(self):
@@ -247,7 +279,6 @@ class MLmodel:
         number_of_wrong_smiles = len(orginal_df) - len(self.df)
         clean_df = self.df
         return number_of_samples, number_of_wrong_smiles, clean_df
-
 
 
 @dataclass
