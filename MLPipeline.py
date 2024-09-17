@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier, Grad
 from xgboost import XGBClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.base import BaseEstimator
-from sklearn.metrics import mean_squared_error, accuracy_score
+from sklearn.metrics import mean_squared_error, accuracy_score, f1_score, cohen_kappa_score
 from sklearn.multioutput import MultiOutputClassifier, MultiOutputRegressor
 
 import optuna
@@ -23,9 +23,8 @@ from loguru import logger
 
 optuna.logging.set_verbosity(optuna.logging.INFO)
 
-#! Not very sure if the implementation of optuna for multi target modelling is ok??
-#! The NaN values are replaced by -1, is there a better way?
-# TODO: Make it better by first splitting, then converting the smiles to the fingerprints. This way usually, less computation for the conversion is needed.
+# ! Not very sure if the implementation of optuna for multi target modelling is ok??
+# ! The NaN values are replaced by -1, is there a better way?
 
 Regression_models = [
     "LinearRegression",
@@ -58,7 +57,8 @@ class MLmodel:
     hyperparameter_tuning: bool = False
     param_grid: Optional[Dict[str, Any]] = None
     cv: int = 5
-    optimization_method: str = 'grid_search'
+    optimization_method: str = 'optuna'  # grid_search, optuna
+    optimization_trials: int = 50
 
     model: Optional[BaseEstimator] = field(init=False, default=None)
     X_train: Optional[pd.DataFrame] = field(init=False, default=None)
@@ -75,7 +75,7 @@ class MLmodel:
             "One or more target column not found in the DataFrame."
 
         assert all([f in self.df.columns for f in self.features]), \
-            "One or more feature columns not found in the DataFrame."
+            f"One or more feature columns {self.features} not found in the DataFrame."
 
         assert len(self.features) == len(self.feature_types), \
             "Number of feature types should match the number of features."
@@ -86,13 +86,7 @@ class MLmodel:
         self.df = self.df.fillna(-1)  # Ensure no missing values
         self.model = None  # This will hold the instantiated model
 
-        if 'SMILES' in self.feature_types:
-            self.df['fingerprints'] = self.df['SMILES'].apply(self.smiles_to_fingerprint)
-            self.features.pop(self.features.index('SMILES'))
-            self.df = self.df.dropna(subset=['fingerprints'])
-            self.X = self.df[self.features + ['fingerprints']]
-        else:
-            self.X = self.df[self.features]
+        self.X = self.df[self.features]
 
         self.y = self.df[self.target]
 
@@ -117,6 +111,33 @@ class MLmodel:
             random_state=self.randomSeed,
             stratify=y_temp if self.target_type == 'binary' else None
         )
+
+        indexlist = []
+        for i, value in enumerate(self.feature_types):
+            logger.info(f"Feature type: {value}")
+            logger.info(f"Feature: {self.features[i]}")
+            if value == 'SMILES':
+                self.X_train[f'fingerprints{i}'] = self.X_train[self.features[i]].apply(self.smiles_to_fingerprint)
+                self.X_test[f'fingerprints{i}'] = self.X_test[self.features[i]].apply(self.smiles_to_fingerprint)
+                self.X_train = self.X_train.drop(columns=[self.features[i]])
+                self.X_test = self.X_test.drop(columns=[self.features[i]])
+                indexlist.append(i)
+            # self.features.pop(self.features.index('SMILES'))
+            # self.X = self.X.dropna(subset=['fingerprints'])
+
+            logger.info(f"Indexlist: {indexlist}")
+
+        # If there are multiple SMILES columns, horizontally concatenate their fingerprints
+        if len(indexlist) > 1:
+            # Horizontally concatenate fingerprints from all SMILES columns
+            self.X_train['fingerprints'] = self.X_train[[f'fingerprints{i}' for i in indexlist]].apply(
+                lambda row: np.hstack(row), axis=1)
+            self.X_test['fingerprints'] = self.X_test[[f'fingerprints{i}' for i in indexlist]].apply(
+                lambda row: np.hstack(row), axis=1)
+
+            # Drop the individual fingerprint columns after concatenation
+            self.X_train = self.X_train.drop(columns=[f'fingerprints{i}' for i in indexlist])
+            self.X_test = self.X_test.drop(columns=[f'fingerprints{i}' for i in indexlist])
 
         # Ensure X_train is a 2D NumPy array
         data_to_convert = ['X_train', 'X_test', 'y_train', 'y_test']
@@ -174,7 +195,7 @@ class MLmodel:
         # smiles = row[self.features[0]]
         mol = Chem.MolFromSmiles(smiles)
         if mol is None:
-            # print(f"Invalid SMILES string: {smiles}, returning None.")
+            # logger.info(f"Invalid SMILES string: {smiles}, returning None.")
             return None
         # Generate Morgan fingerprint
         mfpgen = rdFingerprintGenerator.GetMorganGenerator(radius=20, fpSize=512)
@@ -192,16 +213,16 @@ class MLmodel:
                                        else 'neg_mean_squared_error')
 
             grid_search.fit(self.X_train, self.y_train)
-            print(f"Best hyperparameters: {grid_search.best_params_}")
+            logger.info(f"Best hyperparameters: {grid_search.best_params_}")
             self.model = grid_search.best_estimator_
-            print(f"Best {self.modelType} model trained successfully.")
+            logger.info(f"Best {self.modelType} model trained successfully.")
 
         elif self.optimization_method == 'random_search':
             raise NotImplementedError("Random search is not implemented yet.")
 
         elif self.optimization_method == 'optuna':
             study = optuna.create_study(direction='maximize' if self.modelType in Classification_models else 'minimize')
-            study.optimize(self.objective, n_trials=50)
+            study.optimize(self.objective, n_trials=self.optimization_trials)
             best_params = study.best_params
 
             if len(self.target) < 2:
@@ -211,9 +232,9 @@ class MLmodel:
 
             best_model = self.model.fit(self.X_train, self.y_train)
             self.model = best_model
-            print(f"Best {self.modelType} model trained successfully with "
-                  "hyperparameter tuning using Optuna.")
-            print(f"Best hyperparameters: {best_params}")
+            logger.info(f"Best {self.modelType} model trained successfully with "
+                        "hyperparameter tuning using Optuna.")
+            logger.info(f"Best hyperparameters: {best_params}")
 
         else:
             raise NotImplementedError(f"The optimization method is not implemented yet: {self.optimization_method}")
@@ -236,7 +257,7 @@ class MLmodel:
             # Train the model without hyperparameter tuning
             self.model.fit(self.X_train, self.y_train)
 
-        print(f"{self.modelType} model trained successfully.")
+        logger.info(f"{self.modelType} model trained successfully.")
 
     def predict(self, X=None):
         if self.model is None:
@@ -249,27 +270,52 @@ class MLmodel:
         predictions = self.model.predict(X)
         return predictions
 
-    def evaluate(self):
+    def evaluate(self, X=None, y=None, GetSummary=True):
         if self.model is None:
             raise ValueError("Model has not been trained yet.")
 
-        predictions = self.predict(self.X_test)
+        eval = {}
+        summary = {}
+
+        if X or y is None:
+            X = self.X_test
+            y = self.y_test
+
+        predictions = self.predict(X)
 
         if self.modelType in Regression_models:
             # Predict on the test set
-            eval = mean_squared_error(self.y_test, predictions)
-            print(f"Mean Squared Error for {self.modelType}: {eval:.2f}")
+            eval['mean_squared_error'] = mean_squared_error(y, predictions)
+            logger.info(f"Mean Squared Error for {self.modelType}: {eval['mean_squared_error']:.2f}")
         else:
-            if len(self.y_test.shape) >= 2:
+            if len(y.shape) >= 2:
                 # Multiple target columns
-                accuracies = [accuracy_score(self.y_test[:, i], predictions[:, i]) for i in range(self.y_test.shape[1])]
-                print(f"Accuracies for each target in {self.modelType}: {accuracies}")
-                eval = accuracies
+                accuracies = [accuracy_score(y[:, i], predictions[:, i]) for i in range(y.shape[1])]
+                eval['f1_micro'] = [f1_score(y[:, i], predictions[:, i], average='micro') for i in range(y.shape[1])]
+                eval['f1_macro'] = [f1_score(y[:, i], predictions[:, i], average='macro') for i in range(y.shape[1])]
+                eval['kappa'] = [cohen_kappa_score(y[:, i], predictions[:, i]) for i in range(y.shape[1])]
+                eval['accuracies'] = accuracies
+
+                logger.info(f"Accuracies for each target in {self.modelType}: {accuracies}")
+
             else:
                 # Predict on the test set
-                eval = accuracy_score(self.y_test, predictions)
-                print(f"Accuracy for {self.modelType}: {eval:.2f}")
-        return eval
+                eval['accuracy'] = accuracy_score(y, predictions)
+                eval['f1_micro'] = f1_score(y, predictions, average='micro')
+                eval['f1_macro'] = f1_score(y, predictions, average='macro')
+                eval['kappa'] = cohen_kappa_score(y, predictions)
+
+                logger.info(f"Accuracy for {self.modelType}: {eval['accuracy']:.2f}")
+
+        if GetSummary:
+            summary['modeltype'] = self.model.__class__.__name__
+            summary['target'] = self.target
+            summary['train_size'] = self.train_count
+            summary['trues'] = self.y_test
+            summary['preds'] = predictions
+            summary['model_params'] = self.model.get_params()
+
+        return eval, summary
 
     def getValues(self):
         return self.X_train, self.X_test, self.y_train, self.y_test
