@@ -1,5 +1,14 @@
-Feature(s): 
-    
-target: 
+feature(s):
+	['SMILES',
+ 	'product',
+ 	'source_for_metal',
+ 	'linker_name',
+	'reaction_phase',
+ 	'sacrificial_agent',
+	'cocatalyst']
 
-Vicky
+	(SMILES converted to Morgan fingerprints)
+
+target(s): 
+	"activity_2bins_5050" (2bins_50/50 balanced binary classification)
+	"activity_7327" (2bins_73/27 unbalanced binary classification)

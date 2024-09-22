@@ -1,1 +1,31 @@
-Vicky
+BET_dataset--------------
+feature(s):
+	["Precursor",
+	"Activator",
+	"Activator_carbon_ratio", 
+	"Activation T (K)"]
+
+	(Precursor and Activator are encoded)
+
+target(s): 
+	"BET_2bins_5050" (2bins_50/50 balanced binary classification)
+	"BET_7426" (2bins_74/26 unbalanced binary classification)
+
+
+CO2adsorption_dataset--------------
+feature(s):
+	["Precursor",
+	"Activator",
+	"Activator_carbon_ratio", 
+	"Activation T (K)",
+	"T adsorption (K)",
+	"P adsorption (bar)",
+ 	"Pore volume (cm3/g)"]
+
+	(Precursor and Activator are encoded)
+
+target(s): 
+	"CO2ads_2bins_5050" (2bins_50/50 balanced binary classification)
+	"CO2ads_7228" (2bins_72/28 unbalanced binary classification)
+	"CO2ads_4bins" (4bins balanced classification)
+	"CO2ads_10bins" (10bins balanced classification)

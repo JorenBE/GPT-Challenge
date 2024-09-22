@@ -1,1 +1,6 @@
-Vicky
+feature(s):
+	SMILES (converted to Morgan fingerprints)
+
+target(s): 
+	"viscosity_2bins_5050" (2bins_50/50 balanced binary classification)
+	"viscosity_7228" (2bins_72/28 unbalanced binary classification)
