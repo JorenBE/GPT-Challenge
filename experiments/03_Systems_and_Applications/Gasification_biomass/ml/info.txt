@@ -10,5 +10,5 @@ feature(s):
 	(for LLMs the feature 'BIOMASS_name' was also included)
 
 target(s): 
-	'H2_CO_1.4' (2bins_50/50 balanced binary classification)
-	'H2_CO_1.8' (2bins_70/30 unbalanced binary classification)
+	'H2CO_2bins_5050' (2bins_50/50 balanced binary classification)
+	'H2CO_7030' (2bins_70/30 unbalanced binary classification)

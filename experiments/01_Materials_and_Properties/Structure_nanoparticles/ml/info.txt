@@ -1,1 +1,18 @@
-Vicky
+feature(s):
+	"scattering_pattern"
+	(loaded from XYZ files instead of .csv)
+
+target(s):
+	("num_atoms" loaded from XYZ files instead of .csv)
+
+	num_atoms_2bins_5050 (2bins_50/50 balanced binary classification)
+	num_atoms_4bins (4bins balanced classification)
+	num_atoms_10bins (10bins balanced classification)
+	num_atoms (regression)
+
+	("structure_types" loaded from XYZ files instead of .csv)
+
+	structure_types (7categ unbalanced classification)
+	structure_types_7cat (4bins balanced classification)
+	structure_types_5cat (5bins balanced classification)
+	structure_types_4cat (4bins balanced classification)
