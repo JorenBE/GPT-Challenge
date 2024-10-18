@@ -1,0 +1,57 @@
+,elemetns_all,OER_bool,partition,prediction
+41,"['Au', 'N', 'C', 'Cc']",0,train,999
+49,"['Au', 'C', 'N']",1,train,999
+72,"['Ni', 'B', 'N', 'C', 'F']",1,train,999
+15,"['Au', 'N', 'C', 'Cc']",0,train,999
+34,"['Au', 'C', 'N']",0,train,999
+42,"['Ag', 'C', 'N']",0,train,999
+66,"['Au', 'C', 'N']",0,train,999
+80,"['Ti', 'C', 'O']",1,train,999
+78,"['Au', 'O', 'N', 'C', 'Cl']",1,train,999
+9,"['Au', 'C', 'N', 'Cl']",1,train,999
+73,"['Ni', 'Zn', 'C', 'N']",1,train,999
+64,"['Au', 'C', 'N']",1,train,999
+23,"['Au', 'N', 'C', 'Cc']",0,train,999
+1,"['Ti', 'Oc', 'C', 'O']",1,train,999
+71,"['Ni', 'C', 'N']",1,train,999
+3,"['Oc', 'Zr', 'Ti', 'C', 'O']",1,train,999
+38,"['Ag', 'N', 'C', 'Cc']",0,train,999
+51,"['Au', 'C', 'N']",0,train,999
+84,"['Co', 'C', 'S']",1,train,999
+91,"['Ti', 'C', 'O']",1,train,999
+5,"['Zr', 'Ti', 'N', 'C', 'O']",1,train,999
+19,"['Ag', 'N', 'C', 'Cc']",0,train,999
+14,"['Ag', 'C', 'N', 'S']",0,train,999
+69,"['Ti', 'C', 'O']",1,train,999
+32,"['C', 'N', 'Cu']",1,train,999
+4,"['Zr', 'B', 'Ti', 'C', 'O', 'F']",1,train,999
+70,"['Ni', 'C', 'N']",1,train,999
+45,"['C', 'N', 'Cu']",0,train,999
+62,"['Ag', 'N', 'C', 'Cc']",0,train,999
+88,"['C', 'N', 'Cu', 'S']",0,train,999
+82,"['Ti', 'N', 'Zn', 'C', 'O']",1,train,999
+81,"['Ti', 'C', 'O']",1,train,999
+76,"['Cc', 'Ti', 'N', 'C', 'O']",1,train,999
+87,"['C', 'N', 'Cu', 'S']",0,train,999
+7,"['Au', 'C', 'N', 'Cl']",1,train,999
+27,"['Au', 'C', 'N']",1,train,999
+77,"['Cc', 'Ti', 'N', 'C', 'O']",1,train,999
+65,"['Au', 'N', 'C', 'Cc']",0,train,999
+46,"['Au', 'N', 'C', 'Cc']",0,train,999
+47,"['Au', 'N', 'C', 'Cc']",0,train,999
+37,"['Au', 'N', 'C', 'Cc']",0,train,999
+10,"['Au', 'C', 'N', 'Cl']",1,train,999
+16,"['C', 'N', 'Cu', 'S']",0,train,999
+36,"['Ag', 'C', 'N']",0,train,999
+24,"['Ag', 'C', 'N']",0,train,999
+8,"['Au', 'C', 'N', 'Cl']",1,train,999
+57,"['Au', 'N', 'C', 'Cc']",0,train,999
+63,"['Ag', 'N', 'C', 'Cc']",0,train,999
+21,"['C', 'N', 'Cu']",0,train,999
+28,"['Au', 'N', 'C', 'Cc']",0,train,999
+75,"['Cc', 'Ti', 'N', 'C', 'O']",1,test,1
+43,"['Ag', 'N', 'C', 'Cc']",0,test,0
+48,"['Ag', 'N', 'C', 'Cc']",0,test,0
+50,"['C', 'N', 'Cu']",0,test,0
+6,"['Ti', 'C', 'O', 'Zr']",1,test,1
+79,"['Au', 'O', 'N', 'C', 'Cl']",1,test,1

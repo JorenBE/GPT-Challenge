@@ -1,0 +1,57 @@
+,elements_nodes,OER_bool,partition,prediction
+26,['Cu'],0,train,999
+82,"['Ti', 'O']",1,train,999
+63,['Ag'],0,train,999
+77,"['Ti', 'O']",1,train,999
+19,['Ag'],0,train,999
+72,['Ni'],1,train,999
+11,['Cu'],0,train,999
+80,"['Ti', 'O']",1,train,999
+84,['Co'],1,train,999
+44,['Ag'],0,train,999
+27,['Au'],1,train,999
+40,['Ag'],0,train,999
+65,['Au'],0,train,999
+56,"['Au', 'Ag']",0,train,999
+7,"['Au', 'Cl']",1,train,999
+64,['Au'],1,train,999
+29,['Ag'],0,train,999
+39,['Ag'],0,train,999
+81,"['Ti', 'O']",1,train,999
+79,"['Au', 'Cl']",1,train,999
+32,['Cu'],1,train,999
+90,['Cu'],0,train,999
+28,['Au'],0,train,999
+46,['Au'],0,train,999
+66,['Au'],0,train,999
+5,"['Ti', 'O', 'Zr']",1,train,999
+31,['Cu'],0,train,999
+62,['Ag'],0,train,999
+3,"['Ti', 'O', 'Zr']",1,train,999
+49,['Au'],1,train,999
+34,['Au'],0,train,999
+88,['Cu'],0,train,999
+78,"['Au', 'Cl']",1,train,999
+75,"['Ti', 'O']",1,train,999
+45,['Cu'],0,train,999
+57,['Au'],0,train,999
+4,"['Ti', 'O', 'Zr']",1,train,999
+76,"['Ti', 'O']",1,train,999
+70,['Ni'],1,train,999
+86,['Cu'],0,train,999
+91,"['Ti', 'O']",1,train,999
+1,"['Ti', 'O']",1,train,999
+69,"['Ti', 'O']",1,train,999
+23,['Au'],0,train,999
+47,['Au'],0,train,999
+48,['Ag'],0,train,999
+10,"['Au', 'Cl']",1,train,999
+9,"['Au', 'Cl']",1,train,999
+73,['Ni'],1,train,999
+52,['Ag'],0,train,999
+35,['Ag'],0,test,0
+41,['Au'],0,test,0
+71,['Ni'],1,test,1
+25,['Cu'],0,test,0
+6,"['Ti', 'O', 'Zr']",1,test,1
+8,"['Au', 'Cl']",1,test,1
