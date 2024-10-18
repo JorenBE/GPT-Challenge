@@ -1,0 +1,12 @@
+,reaction,yield_bin,partition,prediction
+12,the isomerization from CC1(C)C=C1C2(O)CCOCC2 to OC1(CCOCC1)C(C(C)=C)=C,1,train,999
+11,the isomerization from CC1(C)C=C1C(O)(CCC2=CC=CC=C2)C to CC1(C)C=C1C(O)(CCC2=CC=CC=C2)C,1,train,999
+0,the isomerization from CC1(C)C=C1C(O)C2=CC=CC=C2 to OC(C1=CC=CC=C1)C(C(C)=C)=C,0,train,999
+2,the isomerization from CC1(C)C=C1C(O)(C)C to CC(C(C(O)(C)C)=C)=C,0,train,999
+3,the isomerization from CC1(C)C=C1C(CCCCC)O to OC(CCCCC)C(C(C)=C)=C,0,train,999
+14,the isomerization from OC(C1=CC=C(Br)C=C1)C2=CC32CCOCC3 to C=C(C(O)C1=CC=C(Br)C=C1)C2=CCOCC2,0,test,1
+15,the isomerization from OC1(CCN(CC1)C(OC(C)(C)C)=O)C2=CC32CCCCC3 to C=C(C1(CCN(CC1)C(OC(C)(C)C)=O)O)C2=CCCCC2,1,test,1
+6,the isomerization from CC1(C)C=C1C2(O)CCC3(OCCO3)CC2 to OC1(CCC2(OCCO2)CC1)C(C(C)=C)=C,1,test,1
+4,the isomerization from CC1(C)C=C1C(C2=CC=C(OC)C=C2)O to OC(C1=CC=C(OC)C=C1)C(C(C)=C)=C,0,test,0
+1,the isomerization from CC1(C)C=C1C(C2=CC=CC=C2)(C)O to OC(C1=CC=CC=C1)(C)C(C(C)=C)=C,0,test,0
+7,the isomerization from CC1(C)C=C1C2(O)CCN(C(OC(C)(C)C)=O)CC2 to O=C(OC(C)(C)C)N(CC1)CCC1(O)C(C(C)=C)=C,1,test,0
