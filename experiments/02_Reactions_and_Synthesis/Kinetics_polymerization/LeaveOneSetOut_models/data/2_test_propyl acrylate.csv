@@ -1,0 +1,4 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+6,6,propyl acrylate,CCCOC(=O)C=C,1,0.018,3,CCCOC(=O)C=C (1 molar),propyl acrylate (1 molar),0
+7,7,propyl acrylate,CCCOC(=O)C=C,2,0.027,3,CCCOC(=O)C=C (2 molar),propyl acrylate (2 molar),0
+8,8,propyl acrylate,CCCOC(=O)C=C,4,0.05,3,CCCOC(=O)C=C (4 molar),propyl acrylate (4 molar),1

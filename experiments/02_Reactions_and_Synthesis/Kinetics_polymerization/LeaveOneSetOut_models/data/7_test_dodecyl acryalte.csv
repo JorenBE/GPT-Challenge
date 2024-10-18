@@ -1,0 +1,3 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+21,21,dodecyl acryalte,CCCCCCCCCCCCOC(=O)C=C,1,0.035,11,CCCCCCCCCCCCOC(=O)C=C (1 molar),dodecyl acryalte (1 molar),1
+22,22,dodecyl acryalte,CCCCCCCCCCCCOC(=O)C=C,2,0.049,11,CCCCCCCCCCCCOC(=O)C=C (2 molar),dodecyl acryalte (2 molar),1
