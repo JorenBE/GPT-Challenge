@@ -1,0 +1,6 @@
+Feature(s): SMILES
+    convert to morgan fingerprint
+
+target: mp_bin
+    binary classifications
+
