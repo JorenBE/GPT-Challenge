@@ -1,0 +1,4 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+15,15,2-ethyl-hexyl acrylate,CCCCC(CC)COC(=O)C=C,1,0.026,6,CCCCC(CC)COC(=O)C=C (1 molar),2-ethyl-hexyl acrylate (1 molar),0
+16,16,2-ethyl-hexyl acrylate,CCCCC(CC)COC(=O)C=C,2,0.039,6,CCCCC(CC)COC(=O)C=C (2 molar),2-ethyl-hexyl acrylate (2 molar),1
+17,17,2-ethyl-hexyl acrylate,CCCCC(CC)COC(=O)C=C,4,0.05,6,CCCCC(CC)COC(=O)C=C (4 molar),2-ethyl-hexyl acrylate (4 molar),1

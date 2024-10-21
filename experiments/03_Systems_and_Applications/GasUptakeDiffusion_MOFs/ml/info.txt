@@ -1,0 +1,12 @@
+Feature(s): A,AB,ABC,ABCD,B
+    These columns are all list and increasinlgy add the values of a 'property class'
+    group A are all propeties related to the pore 
+    group B are all propeties related to the material
+    group C are all propeties related to the composition  
+    group D are all propeties related to the ...  
+
+    try them all to make a comparision
+
+target: Uptake_bool,Diffusion_bool
+    two binary classifications
+

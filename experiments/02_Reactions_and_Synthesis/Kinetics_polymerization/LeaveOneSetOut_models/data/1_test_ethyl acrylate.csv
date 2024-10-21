@@ -1,0 +1,4 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+3,3,ethyl acrylate,CCOC(=O)C=C,1,0.021,2,CCOC(=O)C=C (1 molar),ethyl acrylate (1 molar),0
+4,4,ethyl acrylate,CCOC(=O)C=C,2,0.026,2,CCOC(=O)C=C (2 molar),ethyl acrylate (2 molar),0
+5,5,ethyl acrylate,CCOC(=O)C=C,4,0.034,2,CCOC(=O)C=C (4 molar),ethyl acrylate (4 molar),1

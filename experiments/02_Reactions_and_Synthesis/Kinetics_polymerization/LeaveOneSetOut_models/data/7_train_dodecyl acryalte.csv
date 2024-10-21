@@ -1,0 +1,22 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+0,0,Methyl acrylate,C=CC(OC)=O,1,0.013,1,C=CC(OC)=O (1 molar),Methyl acrylate (1 molar),0
+1,1,Methyl acrylate,C=CC(OC)=O,2,0.013,1,C=CC(OC)=O (2 molar),Methyl acrylate (2 molar),0
+2,2,Methyl acrylate,C=CC(OC)=O,4,0.023,1,C=CC(OC)=O (4 molar),Methyl acrylate (4 molar),0
+3,3,ethyl acrylate,CCOC(=O)C=C,1,0.021,2,CCOC(=O)C=C (1 molar),ethyl acrylate (1 molar),0
+4,4,ethyl acrylate,CCOC(=O)C=C,2,0.026,2,CCOC(=O)C=C (2 molar),ethyl acrylate (2 molar),0
+5,5,ethyl acrylate,CCOC(=O)C=C,4,0.034,2,CCOC(=O)C=C (4 molar),ethyl acrylate (4 molar),1
+6,6,propyl acrylate,CCCOC(=O)C=C,1,0.018,3,CCCOC(=O)C=C (1 molar),propyl acrylate (1 molar),0
+7,7,propyl acrylate,CCCOC(=O)C=C,2,0.027,3,CCCOC(=O)C=C (2 molar),propyl acrylate (2 molar),0
+8,8,propyl acrylate,CCCOC(=O)C=C,4,0.05,3,CCCOC(=O)C=C (4 molar),propyl acrylate (4 molar),1
+9,9,n-butyl acrylate,CCCCOC(=O)C=C,1,0.024,4,CCCCOC(=O)C=C (1 molar),n-butyl acrylate (1 molar),0
+10,10,n-butyl acrylate,CCCCOC(=O)C=C,2,0.038,4,CCCCOC(=O)C=C (2 molar),n-butyl acrylate (2 molar),1
+11,11,n-butyl acrylate,CCCCOC(=O)C=C,4,0.044,4,CCCCOC(=O)C=C (4 molar),n-butyl acrylate (4 molar),1
+12,12,iso-butyl acrylate,CC(C)COC(=O)C=C,1,0.021,4,CC(C)COC(=O)C=C (1 molar),iso-butyl acrylate (1 molar),0
+13,13,iso-butyl acrylate,CC(C)COC(=O)C=C,2,0.03,4,CC(C)COC(=O)C=C (2 molar),iso-butyl acrylate (2 molar),0
+14,14,iso-butyl acrylate,CC(C)COC(=O)C=C,4,0.039,4,CC(C)COC(=O)C=C (4 molar),iso-butyl acrylate (4 molar),1
+15,15,2-ethyl-hexyl acrylate,CCCCC(CC)COC(=O)C=C,1,0.026,6,CCCCC(CC)COC(=O)C=C (1 molar),2-ethyl-hexyl acrylate (1 molar),0
+16,16,2-ethyl-hexyl acrylate,CCCCC(CC)COC(=O)C=C,2,0.039,6,CCCCC(CC)COC(=O)C=C (2 molar),2-ethyl-hexyl acrylate (2 molar),1
+17,17,2-ethyl-hexyl acrylate,CCCCC(CC)COC(=O)C=C,4,0.05,6,CCCCC(CC)COC(=O)C=C (4 molar),2-ethyl-hexyl acrylate (4 molar),1
+18,18,cyclohexyl acrylate,C=CC(=O)OC1CCCCC1,1,0.031,6,C=CC(=O)OC1CCCCC1 (1 molar),cyclohexyl acrylate (1 molar),0
+19,19,cyclohexyl acrylate,C=CC(=O)OC1CCCCC1,2,0.048,6,C=CC(=O)OC1CCCCC1 (2 molar),cyclohexyl acrylate (2 molar),1
+20,20,cyclohexyl acrylate,C=CC(=O)OC1CCCCC1,4,0.061,6,C=CC(=O)OC1CCCCC1 (4 molar),cyclohexyl acrylate (4 molar),1

@@ -1,0 +1,9 @@
+feature(s):
+	["dopant_type", 
+	"dopant_dose", 
+	"calcination_temperature"]
+	(dopant_type and calcination_temperature are encoded)
+
+target(s): 
+	"diff_5_15day_5050" (2bins_50/50 balanced binary classification)
+	"diff_5_15day_3763" (2bins_37/63 unbalanced binary classification)

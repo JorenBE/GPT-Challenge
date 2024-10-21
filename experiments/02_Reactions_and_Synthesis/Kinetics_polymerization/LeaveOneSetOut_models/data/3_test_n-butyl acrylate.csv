@@ -1,0 +1,4 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+9,9,n-butyl acrylate,CCCCOC(=O)C=C,1,0.024,4,CCCCOC(=O)C=C (1 molar),n-butyl acrylate (1 molar),0
+10,10,n-butyl acrylate,CCCCOC(=O)C=C,2,0.038,4,CCCCOC(=O)C=C (2 molar),n-butyl acrylate (2 molar),1
+11,11,n-butyl acrylate,CCCCOC(=O)C=C,4,0.044,4,CCCCOC(=O)C=C (4 molar),n-butyl acrylate (4 molar),1

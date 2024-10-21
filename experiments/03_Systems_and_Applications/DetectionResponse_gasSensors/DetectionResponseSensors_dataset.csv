@@ -1,57 +1,57 @@
-sensor_type	ZnO_content	temperature	sensing	sensing_2bins_5050	sensing_7030	sensor_conds
-core-shell	16	300	1.1	0	0	a core-shell gas sensor that contains 16% of ZnO at a temperature of 300C
-core-shell	16	350	1.1	0	0	a core-shell gas sensor that contains 16% of ZnO at a temperature of 350C
-core-shell	16	400	1.1	0	0	a core-shell gas sensor that contains 16% of ZnO at a temperature of 400C
-core-shell	16	450	1.1	0	0	a core-shell gas sensor that contains 16% of ZnO at a temperature of 450C
-core-shell	27	300	11.5	0	0	a core-shell gas sensor that contains 27% of ZnO at a temperature of 300C
-core-shell	27	350	15	1	0	a core-shell gas sensor that contains 27% of ZnO at a temperature of 350C
-core-shell	27	400	16.5	1	0	a core-shell gas sensor that contains 27% of ZnO at a temperature of 400C
-core-shell	27	450	14.2	1	0	a core-shell gas sensor that contains 27% of ZnO at a temperature of 450C
-core-shell	37	300	15.7	1	0	a core-shell gas sensor that contains 37% of ZnO at a temperature of 300C
-core-shell	37	350	20.6	1	1	a core-shell gas sensor that contains 37% of ZnO at a temperature of 350C
-core-shell	37	400	22.6	1	1	a core-shell gas sensor that contains 37% of ZnO at a temperature of 400C
-core-shell	37	450	19.5	1	0	a core-shell gas sensor that contains 37% of ZnO at a temperature of 450C
-core-shell	62	300	12.1	1	0	a core-shell gas sensor that contains 62% of ZnO at a temperature of 300C
-core-shell	62	350	23	1	1	a core-shell gas sensor that contains 62% of ZnO at a temperature of 350C
-core-shell	62	400	30.3	1	1	a core-shell gas sensor that contains 62% of ZnO at a temperature of 400C
-core-shell	62	450	31.6	1	1	a core-shell gas sensor that contains 62% of ZnO at a temperature of 450C
-core-shell	71	300	17	1	0	a core-shell gas sensor that contains 71% of ZnO at a temperature of 300C
-core-shell	71	350	50.8	1	1	a core-shell gas sensor that contains 71% of ZnO at a temperature of 350C
-core-shell	71	400	63.5	1	1	a core-shell gas sensor that contains 71% of ZnO at a temperature of 400C
-core-shell	71	450	42	1	1	a core-shell gas sensor that contains 71% of ZnO at a temperature of 450C
-core-shell	82	300	15	1	0	a core-shell gas sensor that contains 82% of ZnO at a temperature of 300C
-core-shell	82	350	31.6	1	1	a core-shell gas sensor that contains 82% of ZnO at a temperature of 350C
-core-shell	82	400	47.4	1	1	a core-shell gas sensor that contains 82% of ZnO at a temperature of 400C
-core-shell	82	450	27.8	1	1	a core-shell gas sensor that contains 82% of ZnO at a temperature of 450C
-core-shell	91	300	10	0	0	a core-shell gas sensor that contains 91% of ZnO at a temperature of 300C
-core-shell	91	350	25.3	1	1	a core-shell gas sensor that contains 91% of ZnO at a temperature of 350C
-core-shell	91	400	28.2	1	1	a core-shell gas sensor that contains 91% of ZnO at a temperature of 400C
-core-shell	91	450	18.2	1	0	a core-shell gas sensor that contains 91% of ZnO at a temperature of 450C
-composite	16	300	1	0	0	a composite gas sensor that contains 16% of ZnO at a temperature of 300C
-composite	16	350	1.1	0	0	a composite gas sensor that contains 16% of ZnO at a temperature of 350C
-composite	16	400	1.1	0	0	a composite gas sensor that contains 16% of ZnO at a temperature of 400C
-composite	16	450	1	0	0	a composite gas sensor that contains 16% of ZnO at a temperature of 450C
-composite	27	300	1	0	0	a composite gas sensor that contains 27% of ZnO at a temperature of 300C
-composite	27	350	1	0	0	a composite gas sensor that contains 27% of ZnO at a temperature of 350C
-composite	27	400	1.1	0	0	a composite gas sensor that contains 27% of ZnO at a temperature of 400C
-composite	27	450	1	0	0	a composite gas sensor that contains 27% of ZnO at a temperature of 450C
-composite	37	300	1.1	0	0	a composite gas sensor that contains 37% of ZnO at a temperature of 300C
-composite	37	350	1.3	0	0	a composite gas sensor that contains 37% of ZnO at a temperature of 350C
-composite	37	400	1.3	0	0	a composite gas sensor that contains 37% of ZnO at a temperature of 400C
-composite	37	450	1.2	0	0	a composite gas sensor that contains 37% of ZnO at a temperature of 450C
-composite	62	300	1.1	0	0	a composite gas sensor that contains 62% of ZnO at a temperature of 300C
-composite	62	350	1.1	0	0	a composite gas sensor that contains 62% of ZnO at a temperature of 350C
-composite	62	400	1.2	0	0	a composite gas sensor that contains 62% of ZnO at a temperature of 400C
-composite	62	450	1.1	0	0	a composite gas sensor that contains 62% of ZnO at a temperature of 450C
-composite	71	300	3.6	0	0	a composite gas sensor that contains 71% of ZnO at a temperature of 300C
-composite	71	350	5	0	0	a composite gas sensor that contains 71% of ZnO at a temperature of 350C
-composite	71	400	5.1	0	0	a composite gas sensor that contains 71% of ZnO at a temperature of 400C
-composite	71	450	4.1	0	0	a composite gas sensor that contains 71% of ZnO at a temperature of 450C
-composite	82	300	15	1	0	a composite gas sensor that contains 82% of ZnO at a temperature of 300C
-composite	82	350	24	1	1	a composite gas sensor that contains 82% of ZnO at a temperature of 350C
-composite	82	400	81.7	1	1	a composite gas sensor that contains 82% of ZnO at a temperature of 400C
-composite	82	450	47.8	1	1	a composite gas sensor that contains 82% of ZnO at a temperature of 450C
-composite	91	300	3	0	0	a composite gas sensor that contains 91% of ZnO at a temperature of 300C
-composite	91	350	6	0	0	a composite gas sensor that contains 91% of ZnO at a temperature of 350C
-composite	91	400	13.6	1	0	a composite gas sensor that contains 91% of ZnO at a temperature of 400C
-composite	91	450	22.2	1	1	a composite gas sensor that contains 91% of ZnO at a temperature of 450C
+sensor_type;ZnO_content;temperature;sensing;sensing_2bins_5050;sensing_7030;sensor_conds
+core-shell;16;300;1.1;0;0;a core-shell gas sensor that contains 16% of ZnO at a temperature of 300C
+core-shell;16;350;1.1;0;0;a core-shell gas sensor that contains 16% of ZnO at a temperature of 350C
+core-shell;16;400;1.1;0;0;a core-shell gas sensor that contains 16% of ZnO at a temperature of 400C
+core-shell;16;450;1.1;0;0;a core-shell gas sensor that contains 16% of ZnO at a temperature of 450C
+core-shell;27;300;11.5;0;0;a core-shell gas sensor that contains 27% of ZnO at a temperature of 300C
+core-shell;27;350;15;1;0;a core-shell gas sensor that contains 27% of ZnO at a temperature of 350C
+core-shell;27;400;16.5;1;0;a core-shell gas sensor that contains 27% of ZnO at a temperature of 400C
+core-shell;27;450;14.2;1;0;a core-shell gas sensor that contains 27% of ZnO at a temperature of 450C
+core-shell;37;300;15.7;1;0;a core-shell gas sensor that contains 37% of ZnO at a temperature of 300C
+core-shell;37;350;20.6;1;1;a core-shell gas sensor that contains 37% of ZnO at a temperature of 350C
+core-shell;37;400;22.6;1;1;a core-shell gas sensor that contains 37% of ZnO at a temperature of 400C
+core-shell;37;450;19.5;1;0;a core-shell gas sensor that contains 37% of ZnO at a temperature of 450C
+core-shell;62;300;12.1;1;0;a core-shell gas sensor that contains 62% of ZnO at a temperature of 300C
+core-shell;62;350;23;1;1;a core-shell gas sensor that contains 62% of ZnO at a temperature of 350C
+core-shell;62;400;30.3;1;1;a core-shell gas sensor that contains 62% of ZnO at a temperature of 400C
+core-shell;62;450;31.6;1;1;a core-shell gas sensor that contains 62% of ZnO at a temperature of 450C
+core-shell;71;300;17;1;0;a core-shell gas sensor that contains 71% of ZnO at a temperature of 300C
+core-shell;71;350;50.8;1;1;a core-shell gas sensor that contains 71% of ZnO at a temperature of 350C
+core-shell;71;400;63.5;1;1;a core-shell gas sensor that contains 71% of ZnO at a temperature of 400C
+core-shell;71;450;42;1;1;a core-shell gas sensor that contains 71% of ZnO at a temperature of 450C
+core-shell;82;300;15;1;0;a core-shell gas sensor that contains 82% of ZnO at a temperature of 300C
+core-shell;82;350;31.6;1;1;a core-shell gas sensor that contains 82% of ZnO at a temperature of 350C
+core-shell;82;400;47.4;1;1;a core-shell gas sensor that contains 82% of ZnO at a temperature of 400C
+core-shell;82;450;27.8;1;1;a core-shell gas sensor that contains 82% of ZnO at a temperature of 450C
+core-shell;91;300;10;0;0;a core-shell gas sensor that contains 91% of ZnO at a temperature of 300C
+core-shell;91;350;25.3;1;1;a core-shell gas sensor that contains 91% of ZnO at a temperature of 350C
+core-shell;91;400;28.2;1;1;a core-shell gas sensor that contains 91% of ZnO at a temperature of 400C
+core-shell;91;450;18.2;1;0;a core-shell gas sensor that contains 91% of ZnO at a temperature of 450C
+composite;16;300;1;0;0;a composite gas sensor that contains 16% of ZnO at a temperature of 300C
+composite;16;350;1.1;0;0;a composite gas sensor that contains 16% of ZnO at a temperature of 350C
+composite;16;400;1.1;0;0;a composite gas sensor that contains 16% of ZnO at a temperature of 400C
+composite;16;450;1;0;0;a composite gas sensor that contains 16% of ZnO at a temperature of 450C
+composite;27;300;1;0;0;a composite gas sensor that contains 27% of ZnO at a temperature of 300C
+composite;27;350;1;0;0;a composite gas sensor that contains 27% of ZnO at a temperature of 350C
+composite;27;400;1.1;0;0;a composite gas sensor that contains 27% of ZnO at a temperature of 400C
+composite;27;450;1;0;0;a composite gas sensor that contains 27% of ZnO at a temperature of 450C
+composite;37;300;1.1;0;0;a composite gas sensor that contains 37% of ZnO at a temperature of 300C
+composite;37;350;1.3;0;0;a composite gas sensor that contains 37% of ZnO at a temperature of 350C
+composite;37;400;1.3;0;0;a composite gas sensor that contains 37% of ZnO at a temperature of 400C
+composite;37;450;1.2;0;0;a composite gas sensor that contains 37% of ZnO at a temperature of 450C
+composite;62;300;1.1;0;0;a composite gas sensor that contains 62% of ZnO at a temperature of 300C
+composite;62;350;1.1;0;0;a composite gas sensor that contains 62% of ZnO at a temperature of 350C
+composite;62;400;1.2;0;0;a composite gas sensor that contains 62% of ZnO at a temperature of 400C
+composite;62;450;1.1;0;0;a composite gas sensor that contains 62% of ZnO at a temperature of 450C
+composite;71;300;3.6;0;0;a composite gas sensor that contains 71% of ZnO at a temperature of 300C
+composite;71;350;5;0;0;a composite gas sensor that contains 71% of ZnO at a temperature of 350C
+composite;71;400;5.1;0;0;a composite gas sensor that contains 71% of ZnO at a temperature of 400C
+composite;71;450;4.1;0;0;a composite gas sensor that contains 71% of ZnO at a temperature of 450C
+composite;82;300;15;1;0;a composite gas sensor that contains 82% of ZnO at a temperature of 300C
+composite;82;350;24;1;1;a composite gas sensor that contains 82% of ZnO at a temperature of 350C
+composite;82;400;81.7;1;1;a composite gas sensor that contains 82% of ZnO at a temperature of 400C
+composite;82;450;47.8;1;1;a composite gas sensor that contains 82% of ZnO at a temperature of 450C
+composite;91;300;3;0;0;a composite gas sensor that contains 91% of ZnO at a temperature of 300C
+composite;91;350;6;0;0;a composite gas sensor that contains 91% of ZnO at a temperature of 350C
+composite;91;400;13.6;1;0;a composite gas sensor that contains 91% of ZnO at a temperature of 400C
+composite;91;450;22.2;1;1;a composite gas sensor that contains 91% of ZnO at a temperature of 450C

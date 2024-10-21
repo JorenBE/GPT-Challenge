@@ -1,0 +1,7 @@
+Feature(s): Composition_Formula and Equilibrium_Pressure_25C
+    combine both
+    not sure how to do the Composition_Formula...
+
+target: binary_heat
+    binary classifications
+

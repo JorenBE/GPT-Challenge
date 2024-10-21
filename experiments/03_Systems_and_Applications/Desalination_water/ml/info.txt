@@ -1,0 +1,10 @@
+feature(s):
+	["effects", 
+	"delta_T"]
+
+target(s):
+	"specificSurface_2bins_5050" (2bins_50/50 balanced binary classification for heat transfer surface)
+	"specificSurface_8020" (2bins_80/20 unbalanced binary classification for heat transfer surface)
+
+	"GOR_2bins_5050" (2bins_50/50 balanced binary classification for GOR)
+	"GOR_6733" (2bins_67/33 unbalanced binary classification for GOR)

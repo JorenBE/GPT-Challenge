@@ -1,0 +1,6 @@
+Feature(s): 'Smiles' column
+    convert to morgan fingerprint
+    
+target: deltaG4_bin
+    binary class
+   

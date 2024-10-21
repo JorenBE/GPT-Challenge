@@ -1,0 +1,9 @@
+feature(s):
+	["sensor_type", 
+	"ZnO_content", 
+	"temperature"]
+	(sensor_type is encoded)
+
+target(s): 
+	"sensing_2bins_5050" (2bins_50/50 balanced binary classification)
+	"sensing_7030" (2bins_70/30 unbalanced binary classification)

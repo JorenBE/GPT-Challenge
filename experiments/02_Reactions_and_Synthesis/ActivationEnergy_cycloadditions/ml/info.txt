@@ -1,0 +1,6 @@
+Feature(s): 'SMILES' column
+    convert to morgan fingerprint
+    
+target: E_bin
+    binary class
+   

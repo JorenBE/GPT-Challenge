@@ -1,0 +1,4 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+18,18,cyclohexyl acrylate,C=CC(=O)OC1CCCCC1,1,0.031,6,C=CC(=O)OC1CCCCC1 (1 molar),cyclohexyl acrylate (1 molar),0
+19,19,cyclohexyl acrylate,C=CC(=O)OC1CCCCC1,2,0.048,6,C=CC(=O)OC1CCCCC1 (2 molar),cyclohexyl acrylate (2 molar),1
+20,20,cyclohexyl acrylate,C=CC(=O)OC1CCCCC1,4,0.061,6,C=CC(=O)OC1CCCCC1 (4 molar),cyclohexyl acrylate (4 molar),1

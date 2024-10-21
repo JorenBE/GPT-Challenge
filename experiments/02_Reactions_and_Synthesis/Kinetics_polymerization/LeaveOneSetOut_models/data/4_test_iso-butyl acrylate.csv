@@ -1,0 +1,4 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+12,12,iso-butyl acrylate,CC(C)COC(=O)C=C,1,0.021,4,CC(C)COC(=O)C=C (1 molar),iso-butyl acrylate (1 molar),0
+13,13,iso-butyl acrylate,CC(C)COC(=O)C=C,2,0.03,4,CC(C)COC(=O)C=C (2 molar),iso-butyl acrylate (2 molar),0
+14,14,iso-butyl acrylate,CC(C)COC(=O)C=C,4,0.039,4,CC(C)COC(=O)C=C (4 molar),iso-butyl acrylate (4 molar),1

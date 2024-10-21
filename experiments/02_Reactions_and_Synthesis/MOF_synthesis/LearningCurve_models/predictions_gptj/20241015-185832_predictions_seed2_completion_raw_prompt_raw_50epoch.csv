@@ -1,0 +1,21 @@
+,prompt_raw,completion_raw,partition,prediction
+25,"a reaction of 0.547 CAN, dissolved in 1.5, with 0.363 F3BDC, dissolved in 6.2, and 16 HNO3 equivalents at r.t. C for 1 h, Total volume 7.7 mL, CAN/linker ratio 1.5:1",0,train,999
+2,"a reaction of 0.365 CAN, dissolved in 1.5, with 0.363 F3BDC, dissolved in 6.2, and 31 HNO3 equivalents at 80 C for 1 h, Total volume 7.7 mL, CAN/linker ratio 1:1",0,train,999
+7,"a reaction of 0.375 CAN, dissolved in 1.5 (H2O), with 0.375 F3BDC, dissolved in 6 (MeOH), and 0 HNO3 equivalents at 70 C for 25 min, Total volume 7.5 mL, CAN/linker ratio 1:1",1,train,999
+9,"a reaction of 0.375 CAN, dissolved in 2.25 (H2O), with 0.375 F3BDC, dissolved in 5.25 (MeOH), and 0 HNO3 equivalents at 60 C for 1h, Total volume 7.5 mL, CAN/linker ratio 1:1",1,train,999
+12,"a reaction of 0.375 CAN, dissolved in 5.25 (MeOH), with 0.375 F3BDC, dissolved in 2.25 (H2O), and 0 HNO3 equivalents at 60 C for 1h, Total volume 7.5 mL, CAN/linker ratio 1:1",1,train,999
+6,"a reaction of 0.375 CAN, dissolved in 1.5 (H2O), with 0.375 F3BDC, dissolved in 6 (MeOH), and 0 HNO3 equivalents at 60 C for 1h, Total volume 7.5 mL, CAN/linker ratio 1:1",1,test,1
+4,"a reaction of 0.375 CAN, dissolved in 0.8 (H2O), with 0.375 F3BDC, dissolved in 6.8 (MeOH), and 0 HNO3 equivalents at 60 C for 1h, Total volume 7.6 mL, CAN/linker ratio 1:1",0,test,1
+1,"a reaction of 0.411 CAN, dissolved in 1.6, with 0.41 F3BDC, dissolved in 6.4, and 24 HNO3 equivalents at 60 C for 1 h, Total volume 8.0 mL, CAN/linker ratio 1:1",0,test,0
+15,"a reaction of 0.375 CAN, dissolved in 3 (H2O), with 0.375 F3BDC, dissolved in 4.5 (MeOH), and 0 HNO3 equivalents at 60 C for 1h, Total volume 7.5 mL, CAN/linker ratio 1:1",1,test,1
+13,"a reaction of 0.375 CAN, dissolved in 6 (MeOH:H2O), with 0.375 F3BDC, dissolved in 1.5 (MeOH:H2O), and 0 HNO3 equivalents at 60 C for 1h, Total volume 7.5 mL, CAN/linker ratio 1:1",1,test,1
+10,"a reaction of 0.375 CAN, dissolved in 1.5 (MeOH:H2O), with 0.375 F3BDC, dissolved in 6 (MeOH:H2O), and 0 HNO3 equivalents at 60 C for 1h, Total volume 7.5 mL, CAN/linker ratio 1:1",1,test,1
+19,"a reaction of 0.562 CAN, dissolved in 1.5, with 0.375 F3BDC, dissolved in 6, and 32 HNO3 equivalents at 80 C for 1h, Total volume 7.5 mL, CAN/linker ratio 1.5:1",0,test,0
+5,"a reaction of 0.375 CAN, dissolved in 0.4 (H2O), with 0.375 F3BDC, dissolved in 3.4 (MeOH), and 0 HNO3 equivalents at 60 C for 1h, Total volume 3.8 mL, CAN/linker ratio 1:1",0,test,1
+3,"a reaction of 0.365 CAN, dissolved in 1.5, with 0.363 F3BDC, dissolved in 6.2, and 40 HNO3 equivalents at 80 C for 2 h, Total volume 7.7 mL, CAN/linker ratio 1:1",0,test,0
+11,"a reaction of 0.75 CAN, dissolved in 3 (MeOH:H2O), with 0.75 F3BDC, dissolved in 12 (MeOH:H2O), and 0 HNO3 equivalents at 60 C for 1h, Total volume 15.0 mL, CAN/linker ratio 1:1",1,test,1
+24,"a reaction of 0.547 CAN, dissolved in 1.5, with 0.363 F3BDC, dissolved in 6.2, and 0 HNO3 equivalents at r.t. C for 1 h, Total volume 7.7 mL, CAN/linker ratio 1.5:1",0,test,0
+8,"a reaction of 0.375 CAN, dissolved in 1.5 (H2O), with 0.375 F3BDC, dissolved in 6 (MeOH), and 0 HNO3 equivalents at 70 C for 45 min, Total volume 7.5 mL, CAN/linker ratio 1:1",0,test,1
+14,"a reaction of 0.375 CAN, dissolved in 7 (MeOH:H2O), with 0.375 F3BDC, dissolved in 1.5 (MeOH:H2O), and 0 HNO3 equivalents at 60 C for 30 min, Total volume 7.5 mL, CAN/linker ratio 1:1",1,test,1
+16,"a reaction of 0.75 CAN, dissolved in 3 (MeOH:H2O), with 0.75 F3BDC, dissolved in 12 (MeOH:H2O), and 0 HNO3 equivalents at 60 C for 30 min, Total volume 15.0 mL, CAN/linker ratio 1:1",1,test,1
+22,"a reaction of 0.547 CAN, dissolved in 1.5, with 0.363 F3BDC, dissolved in 6.19, and 36 HNO3 equivalents at 120 C for 10 min, Total volume 7.7 mL, CAN/linker ratio 1.5:1",0,test,0

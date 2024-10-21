@@ -1,0 +1,6 @@
+Feature(s): 'SMILES' column
+    copolymer sequence of A and B monomer
+    translate to One-Hot encoding?
+
+target: y_bin
+    binary class

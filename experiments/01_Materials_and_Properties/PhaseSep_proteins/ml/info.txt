@@ -1,0 +1,9 @@
+Feature(s): 'Sequence' column
+    translate to one hot encoding?
+
+target: min_plus,min_pdb,pdb_plus
+    to binary classes here refers to the database of the protein
+    three different datasets (min, plus, pdb) so three different binary classifications, i.e., the targets
+
+    for instance in the 'min_plus' column: Sequences with '1' are from the 'plus' database, Sequences with a '0' are from the 'min' database. Here, the Sequences of the 'pdb' dataset are 'nan'.
+    

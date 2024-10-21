@@ -1,0 +1,41 @@
+Feature(s): 'total_string' column
+    this is a concatenated string from various features, both categorcial and numerical, used for LLM experiments.
+
+    original python code:
+    string = TEMPLATE.format(
+            proccess= entry['Prozessbedingung'],
+            homo_temp = entry['homogenized_temperature'],
+            homo_time = entry['homogenized_time'],
+            sol_time = entry['solutionized_time'], 
+            sol_temp = entry['solutionized_temperature'],
+            ext_temp = entry['extrution_temperature'],
+            ext_speed = entry['extrution_speed'], 
+            ext_ratio = entry['extrusion_ratio'],
+            concentrations = entry['concentration_string']
+            )
+    
+    categorical columns: (to one hot encoding)
+        Prozessbedingung
+    numerical columns: (use as is)
+        homogenized_temperature
+        homogenized_time
+        solutionized_time
+        solutionized_temperature
+        extrution_temperature
+        extrution_speed
+        extrusion_ratio
+    The following columsn are the contents of the various metals: (use as is)
+        Fe,Cu,Ni,Nd,Zn,Ca,Al,Sn,Mn,Si,Gd,Y,Zr,
+        (keep '0' even if metal is not included)
+
+target: grain_size_bin_25.7,second_phase_bin_1.14
+    binary classes (the numbers of in the column name are the medians of the target)
+    so two experiments, one predicting the grain size, one predicting the second phase
+    
+NOTE: 
+the HEREON_final.csv file has all the entries
+
+the HEREON_extruded_final.csv is a subset of the total dataset, i.e. for all entries here the 'Prozessbedingung' is 'Extruded'
+
+for more details: see SI
+    

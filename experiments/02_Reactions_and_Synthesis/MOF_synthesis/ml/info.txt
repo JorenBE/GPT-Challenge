@@ -1,0 +1,16 @@
+Feature(s): numeric column
+    MeOH:H2O,
+    CAN:F3BDC molar ratio,
+    F3BDC (mmol),
+    CAN (mmol) ,
+    T (°C),
+    HNO3 equivalents,
+    V CAN (mL),
+    V F3BDC (mL),
+    Vfinal (mL),
+    reaction time
+    
+target: Success
+    YES or NO
+    create a binary classification
+   

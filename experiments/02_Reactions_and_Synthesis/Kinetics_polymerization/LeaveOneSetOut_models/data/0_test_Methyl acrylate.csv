@@ -1,0 +1,4 @@
+,Unnamed: 0,name,SMILES,Molar,rate,n_carbons,SMILES+Molar,Name+Molar,rate_bin
+0,0,Methyl acrylate,C=CC(OC)=O,1,0.013,1,C=CC(OC)=O (1 molar),Methyl acrylate (1 molar),0
+1,1,Methyl acrylate,C=CC(OC)=O,2,0.013,1,C=CC(OC)=O (2 molar),Methyl acrylate (2 molar),0
+2,2,Methyl acrylate,C=CC(OC)=O,4,0.023,1,C=CC(OC)=O (4 molar),Methyl acrylate (4 molar),0
